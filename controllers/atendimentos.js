@@ -6,8 +6,6 @@ module.exports = app => {
     });
 
     app.post("/atendimentos", (req, res) => {
-        console.log("Atendimento enviado");
-        Atendimento.adiciona(req.body);
-        res.send("Post atendimento");
+        Atendimento.adiciona(req.body, res);
     });
 };
