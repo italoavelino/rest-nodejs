@@ -1,4 +1,3 @@
-const res = require("express/lib/response");
 const moment = require("moment");
 const conexao = require("../infraestrutura/conexao");
 
